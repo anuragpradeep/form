@@ -1,0 +1,40 @@
+body
+{
+    background: url(beautiful-selective-focus-shot-crystal-ball-reflecting-breathtaking-sunset.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    
+} 
+div{
+    width: 600px;
+    height: 490px;
+    padding: 10px 100px;
+    border-radius: 50px;
+    margin: 100px 260px;
+    background: url(gg.png)no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.p1{
+    text-align: center;
+    color: lawngreen;
+}
+h1{
+    text-align: center;
+    color: rgb(234, 255, 0);
+}
+label{
+    float: right;
+    color: chartreuse;
+}
+button{
+    background-color: aqua;
+    font-weight: bold;
+    padding: 3px;
+    border-color: blue;
+}
+button:hover{
+    color: rgb(30, 40, 241);
+}

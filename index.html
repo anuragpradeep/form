@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frm.css">
+</head>
+
+<body>
+    <h1>SURVEY FORM</h1>
+    <form action="submit.html">
+        <div>
+            <table>
+                <p class="p1">Let us know how we can improve?
+                <p>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" placeholder="Enter your name"></td><br>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email</label></td>
+                        <td><input type="Email" placeholder="Enter tour email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Age</label></td>
+                        <td><input type="number" placeholder="Age" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="file"></label></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label">Which option best describes your current role?</label></td>
+                        <td>
+                            <select>
+                                <option value="Student">Student</option>
+                                <option value="Freelancer">Freelancer</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="label">How likely is that you would recommend this program to a
+                                friend?</label></td>
+                        <td><input type="radio">Definitely<br>
+                            <input type="radio">Maybe<br>
+                            <input type="radio">Not sure<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="label">What do you like most here</label></td>
+                        <td>
+                            <select>
+                                <option value="" selected disabled>Select an option</option>
+                                <option>Resources/Study materials</option>
+                                <option>Intractive session</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="label">Things that should be improved in the future<br>(Check all that
+                                apply)</label></td>
+                        <td>
+                            <input type="checkbox">Front-end Projects<br>
+                            <input type="checkbox">Back-end Projects<br>
+                            <input type="checkbox">Data Visualization<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="label">Any Comments or Suggestions</label></td>
+                        <td><textarea placeholder="Enter your comment here..." rows="5" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <button type="submit">Submit</button>
+                        </td>
+                    </tr>
+
+            </table>
+        </div>
+    </form>
+
+</body>
+
+</html>
