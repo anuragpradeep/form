@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    
+}
+#main{
+    width: 20%;
+    height: 750px;
+    background-color: rgb(4, 61, 166);
+    
+    
+}
+#box{
+    display: flex;
+}
+#main2{
+    background-color: antiquewhite;
+    width: 80%;
+    display: flex;
+    
+    
+}
